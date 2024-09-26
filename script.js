@@ -12,7 +12,7 @@ function firstWord(s) {
 	}
 	else
 	{
-      let str;
+      let str="";
 	  s=s.trim();
       for(let i=0;i<s.length;i++)
 		{
@@ -24,9 +24,10 @@ function firstWord(s) {
 			}
 			str+=ch;
 		}
+		return str;
     }
 }
-
+ 
 // Do not change the code below
 
 const s = prompt("Enter String:");
